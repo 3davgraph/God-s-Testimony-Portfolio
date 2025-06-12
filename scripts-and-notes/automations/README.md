@@ -1,0 +1,1 @@
+God helped me find and downloaded this script to be able to set thunderbird portable as a default mail program.

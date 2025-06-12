@@ -1,0 +1,1 @@
+With God's guidance, He led me to the scripts and resources needed to install Syncthing automatically. This combines official documentation and helpful commands shared by others (who's names I have forgotten)

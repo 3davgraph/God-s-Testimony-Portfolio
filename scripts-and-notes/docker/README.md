@@ -1,0 +1,1 @@
+Originally, I copied commands from the Docker and Portainer install docs and combined them into a script with notes for each step to automate the installations. Later, I refined and updated the script, guided by God's leading using AI

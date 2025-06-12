@@ -1,0 +1,1 @@
+Praise God! He helped me find the correct ffmpeg command, to extract the audio from a video file and save it as a separate file.
