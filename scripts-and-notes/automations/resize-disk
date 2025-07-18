@@ -1,0 +1,15 @@
+# Check current disk/partition sizes
+fdisk -l /dev/sda
+
+# Expand the partition
+parted /dev/sda resizepart 3 100%
+# (Answer 'yes' to warning)
+
+# Install resize tools if needed
+apt add e2fsprogs-extra
+
+# Resize the filesystem
+resize2fs /dev/sda3
+
+# Verify new size
+df -h
