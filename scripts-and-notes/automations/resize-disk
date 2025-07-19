@@ -1,7 +1,10 @@
+# Depending on your distribution you can use sudo or doas To escalate privileges and then either apt, yum or apk Package manager.
 # Check current disk/partition sizes
 fdisk -l /dev/sda
 
-# Expand the partition
+# Install parted for easier partition management
+doas apk add parted
+doas parted /dev/sda resizepart 3 100%
 parted /dev/sda resizepart 3 100%
 # (Answer 'yes' to warning)
 
