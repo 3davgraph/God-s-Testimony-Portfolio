@@ -1,0 +1,6 @@
+wget https://downloads.apache.org/guacamole/1.5.4/binary/guacamole-auth-jdbc-1.5.4.tar.gz
+tar -xzf guacamole-auth-jdbc-1.5.4.tar.gz
+cd guacamole-auth-jdbc-1.5.4/mysql/schema
+doas docker cp . guacamole-mysql:/schema
+doas docker exec -it guacamole-mysql bash
+doas docker restart guacamole-web
